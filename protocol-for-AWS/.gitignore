@@ -1,1 +1,16 @@
 
+#general
+CMakeSettings.json
+input.csv
+
+#VS files
+.vs/
+out/
+
+Release/
+Debug/
+protocol-for-AWS.cbp
+protocol-for-AWS.layout
+..gitignore.swp
+
+build_Decision_Trees/

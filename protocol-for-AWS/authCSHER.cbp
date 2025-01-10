@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="authCSHER_decision_trees" />
+		<Option execution_dir="/home/neta/git/authCSHER/protocol-for-AWS/authCSHER_decision_trees/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/authCSHER_decision_trees" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/authCSHER_decision_trees" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Auxiliary_Server/Auxiliary_Server.cpp" />
+		<Unit filename="Auxiliary_Server/Auxiliary_Server.h" />
+		<Unit filename="Auxiliary_Server/main.cpp" />
+		<Unit filename="Constants.h" />
+		<Unit filename="Data_Owner/Data_Owner.cpp" />
+		<Unit filename="Data_Owner/Data_Owner.h" />
+		<Unit filename="Data_Owner/main.cpp" />
+		<Unit filename="Destination_Server/Destination_Server.cpp" />
+		<Unit filename="Destination_Server/Destination_Server.h" />
+		<Unit filename="Destination_Server/main.cpp" />
+		<Unit filename="MAC.cpp" />
+		<Unit filename="MAC.h" />
+		<Unit filename="Secret_Sharing.cpp" />
+		<Unit filename="Secret_Sharing.h" />
+		<Unit filename="Servers_Protocol.cpp" />
+		<Unit filename="Servers_Protocol.h" />
+		<Unit filename="Test_Protocol/Test_Protocol.cpp" />
+		<Unit filename="Test_Protocol/Test_Protocol.h" />
+		<Unit filename="Test_Protocol/main.cpp" />
+		<Unit filename="Tests.cpp" />
+		<Unit filename="Tests.h" />
+		<Unit filename="Utility.cpp" />
+		<Unit filename="Utility.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
